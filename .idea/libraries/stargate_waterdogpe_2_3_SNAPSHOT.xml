@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="stargate-waterdogpe-2.3-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../plugins/stargate-waterdogpe-2.3-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
