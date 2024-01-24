@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="InventoryConnect">
+    <output-path>$PROJECT_DIR$/../../plugins</output-path>
+    <root id="archive" name="InventoryConnect.jar">
+      <element id="module-output" name="InventoryConnect" />
+      <element id="dir-copy" path="$PROJECT_DIR$/resources" />
+    </root>
+  </artifact>
+</component>

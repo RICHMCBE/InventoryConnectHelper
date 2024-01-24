@@ -1,0 +1,6 @@
+name: InventoryConnect
+main: romo.inventoryconnect.InventoryConnect
+author: RoMo_Official
+version: 1.0.0
+depends:
+  - StarGate
