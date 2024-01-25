@@ -1,10 +1,10 @@
-package romo.inventoryconnect;
+package romo.inventoryconnecthelper;
 
 import alemiz.stargate.StarGate;
 import dev.waterdog.waterdogpe.plugin.Plugin;
-import romo.inventoryconnect.protocol.InventorySavePacket;
+import romo.inventoryconnecthelper.protocol.InventorySavePacket;
 
-public class InventoryConnect extends Plugin {
+public class InventoryConnectHelper extends Plugin {
     @Override
     public void onEnable(){
         StarGate.getInstance().getServer().getProtocolCodec().registerPacket((byte) 14, InventorySavePacket.class);
