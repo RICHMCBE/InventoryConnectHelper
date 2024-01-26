@@ -1,6 +1,5 @@
 package romo.inventoryconnecthelper.protocol;
 
-import alemiz.stargate.StarGate;
 import alemiz.stargate.handler.StarGatePacketHandler;
 import alemiz.stargate.protocol.StarGatePacket;
 import alemiz.stargate.protocol.types.PacketHelper;
@@ -46,7 +45,6 @@ public class InventorySavePacket extends StarGatePacket {
 
     @Override
     public boolean handle(StarGatePacketHandler handler) {
-        //StarGate.getInstance().getSession()
         System.out.println(this.status);
         System.out.println(this.xuid);
         return true;
