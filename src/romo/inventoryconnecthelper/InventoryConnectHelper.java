@@ -1,7 +1,6 @@
 package romo.inventoryconnecthelper;
 
 import alemiz.stargate.StarGate;
-import alemiz.stargate.events.ClientAuthenticatedEvent;
 import alemiz.stargate.events.ClientDisconnectedEvent;
 import alemiz.stargate.server.ServerSession;
 import dev.waterdog.waterdogpe.ProxyServer;

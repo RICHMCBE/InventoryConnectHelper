@@ -6,7 +6,7 @@ import alemiz.stargate.protocol.types.PacketHelper;
 import io.netty.buffer.ByteBuf;
 import romo.inventoryconnecthelper.InventoryConnectHelper;
 
-import java.util.Iterator;
+
 import java.util.Objects;
 
 public class InventorySavePacket extends StarGatePacket {
