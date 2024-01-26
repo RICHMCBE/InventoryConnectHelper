@@ -3,6 +3,9 @@
 
 ## Notice:
 This plugin was made for with PocketMine-MP server has InventoryConnect.<br>
+This plugin uses `StarGate`.<br>
+Please use this plugin after setting a StarGate.<br>
+StarGate(plugin for waterdog): https://github.com/Alemiz112/StarGate
 
 ## How to Use:
 ### WaterdogPE
