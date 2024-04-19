@@ -23,8 +23,8 @@ public class InventoryConnectHelper extends Plugin {
     @Override
     public void onEnable(){
         instance = this;
-        StarGate.getInstance().getServer().getProtocolCodec().registerPacket((byte) 14, InventorySavePacket.class);
-        StarGate.getInstance().getServer().getProtocolCodec().registerPacket((byte) 15, InventoryConnectSessionConnectPacket.class);
+        StarGate.getInstance().getServer().getProtocolCodec().registerPacket((byte) 26, InventorySavePacket.class);
+        StarGate.getInstance().getServer().getProtocolCodec().registerPacket((byte) 27, InventoryConnectSessionConnectPacket.class);
         ProxyServer.getInstance().getEventManager().subscribe(ClientDisconnectedEvent.class, this::onClientDisconnected);
     }
 
