@@ -1,6 +1,6 @@
 name: InventoryConnectHelper
 main: romo.inventoryconnecthelper.InventoryConnectHelper
 author: RoMo_Official
-version: 1.1.0
+version: 1.1.1
 depends:
   - StarGate
