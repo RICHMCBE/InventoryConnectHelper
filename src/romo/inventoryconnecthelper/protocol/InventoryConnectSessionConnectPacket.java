@@ -12,7 +12,7 @@ public class InventoryConnectSessionConnectPacket extends StarGatePacket {
 
     @Override
     public byte getPacketId() {
-        return 15;
+        return 27;
     }
 
     @Override

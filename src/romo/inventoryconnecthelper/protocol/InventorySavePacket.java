@@ -31,7 +31,7 @@ public class InventorySavePacket extends StarGatePacket {
 
     @Override
     public byte getPacketId() {
-        return 14;
+        return 26;
     }
 
     public String getClientName() {
